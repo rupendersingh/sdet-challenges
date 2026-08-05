@@ -1,5 +1,5 @@
 
 function mergeJsIfElseConfig(defaultConfig, overrideConfig) {
-    const finalConfig = { ...defaultConfig, ...overrideConfig, "retries": 0 };
+    const finalConfig = { "retries": 0, ...defaultConfig, ...overrideConfig };
     return (finalConfig);
 }
