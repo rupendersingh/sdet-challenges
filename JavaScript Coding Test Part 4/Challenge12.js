@@ -9,5 +9,5 @@ function createUniqueJsIfElseTags(tags) {
         }
     }
 
-    return (uniqueTags);
+    return ([...uniqueTags]);
 }
